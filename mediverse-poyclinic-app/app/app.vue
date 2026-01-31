@@ -4,10 +4,10 @@
     <NuxtWelcome /> -->
 
     <header>
-      <div class="wrap nav">
+      <div class="wrap nav" style="padding: 0">
         <a class="brand" href="#top" aria-label="Mediverse Polyclinic Home">
-          <img src="" alt="Mediverse Polyclinic logo" />
-          <div class="name">Mediverse Polyclinic</div>
+          <img src="./mediverse_logo_1.png" alt="Mediverse Polyclinic logo" style="width: 75%; height: 100px;" />
+          <!-- <div class="name">Mediverse Polyclinic</div> -->
         </a>
 
         <nav aria-label="Primary">
@@ -333,7 +333,7 @@ nav a:hover {
 
 h1 {
   margin: 14px 0 8px;
-  font-size: clamp(28px, 4vw, 46px);
+  font-size: clamp(28px, 4vw, 36px);
   line-height: 1.05;
   letter-spacing: -.5px;
 }
